@@ -47,6 +47,7 @@
 .navbar {
   position: -webkit-sticky;
   position: sticky;
+  width: 100%;
   background-color: #d3d3df;
 }
 
@@ -450,10 +451,6 @@
   text-align: left;
 }
 
-.tab-link-tab-3:active {
-  background-color: #34aa9b;
-}
-
 .tab-link-tab-3.w--current {
   -webkit-box-pack: start;
   -webkit-justify-content: flex-start;
@@ -468,7 +465,7 @@
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   margin-bottom: 0vh;
   padding-top: 0vh;
@@ -759,13 +756,10 @@
 }
 
 .contact-section {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  height: 100vh;
-  padding-top: 100px;
-  padding-bottom: 100px;
+  width: 100%;
+  height: 100%;
+  padding-top: 200px;
+  padding-bottom: 200px;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
   -webkit-flex-direction: column;
@@ -778,11 +772,11 @@
   -webkit-flex-wrap: nowrap;
   -ms-flex-wrap: nowrap;
   flex-wrap: nowrap;
-  -webkit-box-align: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center;
-  background-color: #e7e7f0;
+  -webkit-box-align: stretch;
+  -webkit-align-items: stretch;
+  -ms-flex-align: stretch;
+  align-items: stretch;
+  background-color: #d3d3df;
   color: #64998a;
 }
 
@@ -847,7 +841,7 @@
 }
 
 .contact-div.about {
-  width: 85vw;
+  width: 100%;
 }
 
 .contact-container {
@@ -969,11 +963,10 @@
 }
 
 .text-block-6 {
-  width: 500px;
   margin-bottom: 10px;
   border: 1px none #000;
   color: #db8c14;
-  font-size: 32px;
+  font-size: 30px;
   font-weight: 900;
   text-align: left;
 }
@@ -1258,6 +1251,7 @@
 
 .testimonial-section {
   display: block;
+  width: 100%;
   min-height: 100%;
   margin-top: 25px;
   padding-top: 50px;
@@ -1267,6 +1261,7 @@
 }
 
 .question-section {
+  width: 100%;
   margin-bottom: 0vh;
   padding-top: 100px;
   padding-bottom: 200px;
@@ -1288,10 +1283,11 @@
 }
 
 .image-11 {
-  max-width: 110%;
+  max-width: 100%;
   margin-bottom: 45px;
   padding-bottom: 0px;
   border: 2px none #000;
+  font-size: 20px;
 }
 
 .image-12 {
@@ -1307,7 +1303,7 @@
 }
 
 .image-13 {
-  max-width: 110%;
+  max-width: 100%;
   margin-top: 100px;
   border: 2px none #000;
 }
@@ -1363,12 +1359,17 @@
 }
 
 .columns {
-  margin-right: -10vw;
-  margin-left: -10vw;
+  margin-right: 0vw;
+  margin-left: 0vw;
 }
 
 .div-block-13 {
   height: 100%;
+}
+
+.columns-2 {
+  margin-right: 0px;
+  margin-left: 0px;
 }
 
 .column-6 {
@@ -1538,6 +1539,11 @@
     padding-left: 0px;
   }
 
+  .contact-header {
+    font-size: 38px;
+    line-height: 44px;
+  }
+
   .contact-header.home {
     font-size: 56px;
   }
@@ -1578,7 +1584,7 @@
   }
 
   .nav-menu-2 {
-    background-color: #063a3a;
+    background-color: #414146;
   }
 
   .menu-button-3 {
@@ -1586,7 +1592,7 @@
   }
 
   .nav-menu-3 {
-    background-color: #063a3a;
+    background-color: #414146;
   }
 
   .image-11 {
@@ -1600,6 +1606,7 @@
 
   .image-13 {
     max-width: 70%;
+    margin-top: 0px;
   }
 
   .div-block-12 {
@@ -1707,7 +1714,7 @@
   }
 
   .hero-header-text {
-    font-size: 7vw;
+    font-size: 9vw;
     line-height: 120%;
   }
 
@@ -1788,8 +1795,7 @@
 
   .contact-section {
     height: 100%;
-    padding-top: 0vh;
-    padding-bottom: 100px;
+    padding: 100px 5vw;
   }
 
   .contact-header {
@@ -1823,7 +1829,7 @@
   }
 
   .nav-link-4 {
-    border-radius: 0px;
+    border-radius: 10px;
     background-color: #414146;
     color: #db8c14;
   }
@@ -1861,7 +1867,7 @@
   }
 
   .nav-menu {
-    background-color: #063a3a;
+    background-color: #414146;
   }
 
   .image-8 {
@@ -2047,6 +2053,11 @@
 
   .hero-header-text {
     margin-top: 0px;
+    font-size: 14vw;
+  }
+
+  .text-block-2 {
+    font-size: 16px;
   }
 
   .tab-link-tab-6.colour {
@@ -2122,6 +2133,7 @@
 
   .contact-section.about {
     padding: 50px 5vw;
+    background-color: transparent;
   }
 
   .link-2 {
@@ -2252,8 +2264,12 @@
   }
 
   .testimonial-section {
-    padding-right: 0px;
-    padding-left: 0px;
+    padding-right: 5vw;
+    padding-left: 5vw;
+  }
+
+  .question-section {
+    display: none;
   }
 
   .paragraph-2 {
@@ -2265,7 +2281,9 @@
   }
 
   .image-11 {
-    margin-bottom: 40px;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-bottom: 20px;
   }
 
   .image-12 {
@@ -2277,11 +2295,21 @@
     line-height: 25px;
   }
 
+  .image-13 {
+    max-width: 100%;
+  }
+
   .column-4 {
     height: 100%;
     margin-top: 50px;
     padding-right: 0px;
     padding-left: 0px;
+  }
+
+  .div-block-13 {
+    height: auto;
+    padding-top: 20px;
+    padding-bottom: 20px;
   }
 
   .columns-2 {
@@ -2299,6 +2327,7 @@
   }
 
   .column-6 {
+    height: auto;
     padding-right: 0px;
     padding-left: 0px;
   }
@@ -2334,26 +2363,26 @@
   }
 
   .div-block-17 {
-    padding-right: 5vw;
-    padding-left: 5vw;
+    padding-right: 0vw;
+    padding-left: 0vw;
   }
 }
 
-#w-node-2e1c66222656-e56dfbce {
+#w-node-2e1c66222656-b85ab824 {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
 }
 
-#w-node-874e1e621a81-e56dfbce {
+#w-node-874e1e621a81-b85ab824 {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
   align-self: center;
 }
 
-#w-node-32734ab64a20-e56dfbce {
+#w-node-32734ab64a20-b85ab824 {
   -webkit-align-self: center;
   -ms-flex-item-align: center;
   -ms-grid-row-align: center;
