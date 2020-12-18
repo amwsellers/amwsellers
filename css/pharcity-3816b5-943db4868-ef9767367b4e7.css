@@ -786,7 +786,7 @@
   display: -ms-flexbox;
   display: flex;
   width: 100%;
-  padding: 0vh 10vw;
+  padding: 200px 10vw;
   -webkit-box-align: start;
   -webkit-align-items: flex-start;
   -ms-flex-align: start;
@@ -2144,6 +2144,10 @@
     font-size: 20px;
   }
 
+  .contact-header {
+    font-size: 10vw;
+  }
+
   .contact-header.home {
     font-size: 34px;
   }
@@ -2277,7 +2281,8 @@
   }
 
   .heading-7 {
-    font-size: 7vw;
+    font-size: 10vw;
+    line-height: 40px;
   }
 
   .image-11 {
