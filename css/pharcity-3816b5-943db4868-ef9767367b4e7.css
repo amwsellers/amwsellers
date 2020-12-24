@@ -497,6 +497,10 @@
   -ms-flex-pack: center;
   justify-content: center;
   background-color: #e7e7f0;
+  background-image: url('../images/grey-geo.png-1024×768-2020-12-23-13-41-39.jpg');
+  background-position: 0px 0px;
+  background-size: auto;
+  background-attachment: fixed;
 }
 
 .tab-link-tab-5 {
