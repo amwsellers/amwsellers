@@ -1294,6 +1294,10 @@
   padding-bottom: 200px;
 }
 
+.question-section.testi {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
 .paragraph-2 {
   padding-right: 0px;
   color: #414246;
@@ -1499,6 +1503,10 @@
   -webkit-align-items: center;
   -ms-flex-align: center;
   align-items: center;
+}
+
+.text-span-2 {
+  font-weight: 700;
 }
 
 @media screen and (max-width: 991px) {
